@@ -8,3 +8,5 @@ Radar Sensing Group@YNU （云南大学雷达对地观测小组）
 
 先放两张照片给大家看看
 
+![image](group3.jpg)
+
