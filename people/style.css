@@ -1,0 +1,237 @@
+/* 基本样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;  /* 增加顶部和底部的空间 */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* 添加圆角效果 */
+    padding: 20px;
+}
+
+/* 左侧区域：个人图像和信息 */
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #ddd;  /* 添加边框以分割两部分 */
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;  /* 可选，图片边角圆滑 */
+}
+
+h1 {
+    font-size: 2.5rem;  /* 姓名字体大小 */
+    color: #007bff;     /* 姓名字体颜色设置为蓝色 */
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.8rem;  /* 职称字体大小稍小于姓名 */
+    color: #007bff;     /* 职称字体颜色设置为蓝色 */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555; /* 文本颜色 */
+}
+
+.content a {
+    color: #007bff;  /* 邮件链接颜色 */
+    text-decoration: none; /* 去除下划线 */
+}
+
+.content a:hover {
+    text-decoration: underline; /* 悬停时显示下划线 */
+}
+
+#intro-content {
+    font-size: 20px;      /* 设置字体大小为20px */
+    line-height: 2;       /* 设置行间距为2倍字体大小 */
+    color: #333;          /* 字体颜色 */
+}
+
+/* 右侧区域：简介内容 */
+.content {
+    width: 80%;
+    padding: 40px;
+    margin-top: 0cm;
+}
+
+/* 个人信息图片样式 */
+
+.person-image {
+    width: 200px;  /* 设置图片的宽度为 150px */
+    height: auto;  /* 保持图片比例 */
+    border-radius: 10px;  /* 图片圆角 */
+    margin-bottom: 20px;  /* 图片和其他内容的间距 */
+}
+
+/* 导航栏样式 */
+.navbar ul {
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    background-color: #444;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+/* 右侧区域的样式 */
+.content {
+    width: 70%;
+    padding: 40px;
+    margin-top: -0.5cm;  /* 向下移动 2cm */
+}
+
+/* 分割线样式 */
+.divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;  /* 分割线的颜色 */
+    margin: 30px 0;
+}
+
+/* Biographical Information 和 Education Background 标题样式 */
+.biographical-title, .education-title ,.work-title{
+    font-size: 1.8rem;
+    color: #007bff;  /* 蓝色字体 */
+    margin-bottom: 15px;
+}
+
+/* Biographical Information 和 Education Background 内容样式 */
+#biographical-content, #education-content,#work-content {
+    font-size: 1.05rem;
+    color: #333;  /* 蓝色字体 */
+    line-height: 1.6;
+    white-space: pre-line;  /* 保持文本中的换行 */
+}
+
+.group-title {
+    font-size: 1.5rem;
+    color: #333;  /* 标题颜色为蓝色 */
+    margin-bottom: 10px;
+}
+
+/* Group Leader 图片 */
+.leader-image {
+    width: 200px;  /* 设置图片宽度 */
+    height: auto;  /* 保持图片比例 */
+    border-radius: 10px;  /* 图片圆角 */
+    margin-bottom: 20px;  /* 图片和其他内容的间距 */
+}
+.navbar ul li a:active {
+    background-color: #666;
+    color: #fff;
+}
+
+.person-image {
+    width: 160px;  /* 设置图片宽度 */
+    height: auto;  /* 保持图片比例 */
+    border-radius: 10px;  /* 图片圆角 */
+    margin-bottom: 20px;  /* 图片和其他内容的间距 */
+}
+.member-details {
+    margin-top: 2cm; /* 向下移动2cm */
+}
+/* 成员详细信息 */
+
+.member-details h2 {
+    font-size: 1.6rem;
+    color: #007bff;
+}
+
+
+
+.member-details p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* 分隔线 */
+.divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 30px 0;
+}
+
+.biye-details {
+    margin-top: 2cm; /* 向下移动2cm */
+}
+/* 毕业生详细信息部分 */
+.biye-details h2 {
+    font-size: 1.6rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+
+.biye-details p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* 分割线 */
+.divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;  /* 分割线的颜色 */
+    margin: 30px 0;
+}
+
+/* 毕业生标题样式 */
+.group-title {
+    font-size: 1.8rem;
+    color: #007bff;  /* 标题颜色 */
+    margin-bottom: 15px;
+}
+
+
+#leader-info h2 {
+    color: #007bff;
+}
+#leader-info {
+    font-size: 18px;
+    text-align: justify;
+}

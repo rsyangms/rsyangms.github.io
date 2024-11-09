@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="/images/icon/favicon.ico" />
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">YNU-RADSENS</a></li>
+            <li><a href="/home/">Home</a></li>
+            <li><a href="/people/">People</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/news/">News</a></li>
+            <li><a href="/photos/">Photos</a></li>
+            <li><a href="/joinus/">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- 左侧区域：Logo 和联系方式 -->
+        <div class="sidebar">
+            <img src="/home/logo.png" alt="Logo" class="logo">
+            <h2>School of Earth Science,<br> Yunnan University</h2>
+            <ul class="contact-info">
+                <li><img src="/home/location.png" alt="Location" class="icon"> Yunnan, China</li>
+                <li><img src="/home/email.png" alt="Email" class="icon"> <a href="mailto:yangms@ynu.edu.cn">Email</a></li>
+                <li><img src="/home/github.png" alt="GitHub" class="icon"> <a href="https://github.com/rsyangms">GitHub</a></li>
+                <li><img src="/home/google-scholar.png" alt="Google Scholar" class="icon"> <a href="https://scholar.google.com.hk/citations?user=MjSFLYoAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a></li>
+                <li><img src="/home/ynu.png" alt="YNU" class="icon"> <a href="http://www.srees.ynu.edu.cn/info/1139/3282.htm">YNU</a></li>
+            </ul>
+        </div>
+
+        <!-- 右侧区域：加载 Markdown 文件内容 -->
+        <div class="content">
+            <div id="md-content"></div>
+        </div>
+    </div>
+
+    <!-- 引入 marked.js 来解析 Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- JavaScript 读取 .md 文件并解析为 HTML -->
+    <script>
+        // 读取 news.md 文件并将其内容插入到网页中
+        fetch('news.md')  // 确保路径正确指向 .md 文件
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();  // 读取 Markdown 文件的内容
+            })
+            .then(mdContent => {
+                // 使用 marked.js 将 Markdown 转换为 HTML
+                const htmlContent = marked.parse(mdContent);
+                // 将解析后的 HTML 内容插入到页面中的指定元素
+                document.getElementById('md-content').innerHTML = htmlContent;
+            })
+            .catch(error => {
+                console.error('Error loading Markdown file:', error);
+                document.getElementById('md-content').innerText = "Error loading content. " + error;
+            });
+    </script>
+</body>
+</html>

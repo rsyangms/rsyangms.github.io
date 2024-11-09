@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/icon/favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">YNU-RADSENS</a></li>
+            <li><a href="/home/">Home</a></li>
+            <li><a href="/people/">People</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/news/">News</a></li>
+            <li><a href="/photos/">Photos</a></li>
+            <li><a href="/joinus/">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Group Leader Container -->
+    <div class="container">
+        <!-- 左侧区域：Group Leader 头像 -->
+        <div class="sidebar">
+            <h3 class="group-title">Group Leader</h3>
+            <img src="yms.jpg" alt="Person Image" class="leader-image">
+        </div>
+
+        <!-- 右侧区域：Group Leader 信息 -->
+        <div class="content">
+            <h1>Mengshi Yang</h1>
+            <h3>Ph.D., Associate Professor</h3>
+            <p><strong>Email:</strong> <a href="mailto:yangms@ynu.edu.cn">yangms@ynu.edu.cn</a></p>
+            <p><strong>Office:</strong> Room 1329, School of Earth Science, Yunnan University</p>
+
+            <!-- 分割线 -->
+            <hr class="divider">
+
+            <h2 class="biographical-title"> </h2>
+            <div id="leader-info"></div>
+        </div>
+    </div>
+
+    <!-- Group Members Container -->
+    <div class="container">
+        <div class="sidebar">
+            <h3 class="group-title">Group Members</h3>
+            <div id="member-images"></div> <!-- 动态加载成员图片 -->
+        </div>
+        <div class="content">
+            <div id="member-info"></div> <!-- 动态加载成员信息 -->
+        </div>
+    </div>
+
+    <!-- 毕业生信息容器 -->
+    <div class="container">
+        <div class="sidebar">
+            <h3 class="group-title">Graduates</h3>
+            <div id="biye-images"></div> <!-- 动态加载毕业生图片 -->
+        </div>
+        <div class="content">
+            <div id="biye-info"></div> <!-- 动态加载毕业生信息 -->
+        </div>
+    </div>
+
+    <!-- JavaScript 用于加载 Markdown 和 JSON 文件内容 -->
+    <script>
+        // 读取 leader_info.md 文件并渲染 Markdown 内容
+        fetch('leader_info.md')
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return response.text();
+            })
+            .then(text => {
+                // 使用 marked 解析 Markdown 并插入 HTML
+                document.getElementById('leader-info').innerHTML = marked.parse(text);
+            })
+            .catch(error => {
+                console.error('Error loading leader_info.md:', error);
+            });
+
+        // 从 members.json 中读取并生成成员信息
+        fetch('members.json')
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                const memberImagesContainer = document.getElementById('member-images');
+                const memberInfoContainer = document.getElementById('member-info');
+
+                data.forEach(member => {
+                    const img = document.createElement('img');
+                    img.src = member.image;
+                    img.alt = `${member.name} Image`;
+                    img.classList.add('person-image');
+                    memberImagesContainer.appendChild(img);
+
+                    const memberDiv = document.createElement('div');
+                    memberDiv.classList.add('member-details');
+
+                    const name = document.createElement('h2');
+                    name.innerText = member.name;
+
+                    const position = document.createElement('p');
+                    position.innerHTML = `<strong>Major:</strong> ${member.position}`;
+
+                    const research = document.createElement('p');
+                    research.innerHTML = `<strong>Research:</strong> ${member.research}`;
+
+                    const email = document.createElement('p');
+                    email.innerHTML = `<strong>Email:</strong> <a href="mailto:${member.email}">${member.email}</a>`;
+
+                    memberDiv.appendChild(name);
+                    memberDiv.appendChild(position);
+                    memberDiv.appendChild(research);
+                    memberDiv.appendChild(email);
+                    memberInfoContainer.appendChild(memberDiv);
+
+                    const divider = document.createElement('hr');
+                    divider.classList.add('divider');
+                    memberInfoContainer.appendChild(divider);
+                });
+            })
+            .catch(error => {
+                console.error('Error loading group members:', error);
+            });
+
+        // 从 biye.json 中读取并生成毕业生信息
+        fetch('biye.json')
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                const biyeImagesContainer = document.getElementById('biye-images');
+                const biyeInfoContainer = document.getElementById('biye-info');
+
+                const img = document.createElement('img');
+                img.src = data.image;
+                img.alt = `${data.name} Image`;
+                img.classList.add('person-image');
+                biyeImagesContainer.appendChild(img);
+
+                const biyeDiv = document.createElement('div');
+                biyeDiv.classList.add('biye-details');
+
+                const name = document.createElement('h2');
+                name.innerText = data.name;
+
+                const position = document.createElement('p');
+                position.innerHTML = `<strong>Position:</strong> ${data.position}`;
+
+                const research = document.createElement('p');
+                research.innerHTML = `<strong>Research:</strong> ${data.research}`;
+
+                const go = document.createElement('p');
+                go.innerHTML = `<strong>Graduation:</strong> ${data.go}`;
+
+                biyeDiv.appendChild(name);
+                biyeDiv.appendChild(position);
+                biyeDiv.appendChild(research);
+                biyeDiv.appendChild(go);
+                biyeInfoContainer.appendChild(biyeDiv);
+
+                const divider = document.createElement('hr');
+                divider.classList.add('divider');
+                biyeInfoContainer.appendChild(divider);
+            })
+            .catch(error => {
+                console.error('Error loading biye.json:', error);
+            });
+    </script>
+</body>
+</html>

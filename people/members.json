@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Yang Zhuo (2022)",
+        "position": "M.S (Cartography and Geography Information System)",
+        "research": "Application of Insar technology in urban scene",
+        "email": "yangzhuo001004@163.com",
+        "image": "yangzhuo.jpg"
+    },
+    {
+        "name": "Saiwei Li (2022)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "InSAR time series analysis, machine learning, geographic information systems.",
+        "email": "lsw_ynu@163.com",
+        "image": "lisaiwei.jpg"
+    },
+    {
+        "name": "Yiming Huang (2022)",
+        "position": "MEng (Resources and Environmental Engineering 03)",
+        "research": "Insar technology application",
+        "email": "1207852894@qq.com",
+        "image": "huangyiming.jpg"
+    },
+  {
+        "name": "Yu Hang (2023)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "InSAR data processing",
+        "email": "316682711@qq.com",
+        "image": "yuhang.jpg"
+    },
+    {
+        "name": "Yangwei Yu (2023)",
+        "position": "MEng (Resources and Environmental Engineering 03)",
+        "research": "Application of InSAR in the field of geological hazards",
+        "email": "yyw_0106@163.com",
+        "image": "yuyangwei.jpg"
+    },
+    {
+        "name": "Weibin Huang (2024)",
+        "position": "M.S (Cartography and Geography Information System)",
+        "research": "Positioning Correction of InSAR Combined with LiDAR",
+        "email": "bin_ynu@foxmail.com",
+        "image": "huangweibin.jpg"
+    },
+  {
+        "name": "Wu Hao (2024)",
+        "position": "M.S (Cartography and Geography Information System)",
+        "research": "InSAR data processing, polarimetric SAR data processing",
+        "email": "wh_ynu@163.com",
+        "image": "wuhao3.jpg"
+    },
+    {
+        "name": "Yin Kang (2024)",
+        "position": "MEng (Resources and Environmental Engineering 02)",
+        "research": "Deep learning temporal deformation classification and land subsidence",
+        "email": "xingyujian1022@163.com",
+        "image": "yinkang.jpg"
+    },
+    {
+        "name": "Siran Chen (2024)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "Radar remote sensing urban building health diagnosis",
+        "email": "1151850167@qq.com",
+        "image": "chensiran.jpg"
+    }
+
+]
