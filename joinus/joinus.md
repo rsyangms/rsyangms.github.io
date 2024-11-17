@@ -22,22 +22,11 @@
 ![](jihua.jpg)
 <br><br>
 ## 我对你们研究生生涯/毕业论文的期待 ##
-Independent thinking
-<br><br>
-Extend it out a little bit
-<br><br>
-做一篇10年后再看都不会觉着丢脸的硕士论文 
+![](exp.png)
+### 做一篇10年后再看都不会觉着丢脸的硕士论文  ###
 <br><br><br>
 ## 课题组能为你们提供什么？ ##
-<br>完善科研训练
-<br><br>
-及时指导
-<br><br>
-科研数据
-<br><br>
-津贴
-<br><br>
-学术视野
+![](exp2.png)
 <br><br><br>
 # 课题组学习建议 #
 <br>**每周工作42-60小时，每天7-10小时（6天）[学习借鉴了下fudan unvi.]**
