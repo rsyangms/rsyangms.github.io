@@ -22,3 +22,10 @@
 
 ★  2019.11 – 2020. 6  香港中文大学 太空与地球信息科学研究所 研究助理
      [Research assistant, Institute of Space & Earth Information Science, The Chinese University of Hong Kong]
+
+     
+## Something you might to know ##
+<br>
+以上的官方信息并不是我的全部。
+关于我，执着的理想主义患者，INTP天秤。希望你加入我们，是期待着一段有趣的旅程，一起做有趣的事情，或多或少创造一些有价值的人生瞬间。
+
