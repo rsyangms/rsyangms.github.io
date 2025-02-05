@@ -7,19 +7,19 @@
 
 <br>
 
-★  2021.06 – now  Associate Professor, School of Earth Science, Yunnan University
+★  2021.06 – now     [Associate Professor, School of Earth Science, Yunnan University]
 
-★  2019.11 – 2020. 6  Research assistant, Institute of Space & Earth Information Science, The Chinese University of Hong Kong
+★  2019.11 – 2020.06 [Research assistant, Institute of Space & Earth Information Science, The Chinese University of Hong Kong]
 
      
 ## Education Background ##
 <br>
 
-★  2015.9 – 2020. 9 PhD. in Geoscience and Remote Sensing, Civil Engineering and Geosciences, Delft University of Technology, Delft, the Netherlands (Supervisor by Ramon F. Hanssen, Paco Lopez-Dekker)
+★  2015.9 – 2020.09 [PhD. in Geoscience and Remote Sensing, Civil Engineering and Geosciences, Delft University of Technology, Delft, the Netherlands] (Supervisor by Ramon F. Hanssen, Paco Lopez-Dekker)
 
-★  2012.9 – 2020. 6 MPhil-PhD program in Photogrammetry and Remote Sensing, State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Hubei, China (Supervisor by Mingsheng Liao)
+★  2012.9 – 2020.06 [MPhil-PhD program in Photogrammetry and Remote Sensing, State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Hubei, China] (Supervisor by Mingsheng Liao)
 
-★  2008.9 – 2012. 6 B.E. in Geomatics Engineering, Dept. of Geosciences, and Info-Physics, Central South University, Hunan, China
+★  2008.9 – 2012.06 [B.E. in Geomatics Engineering, Dept. of Geosciences, and Info-Physics, Central South University, Hunan, China]
 
 
 
