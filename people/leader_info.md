@@ -7,26 +7,19 @@
 
 <br>
 
-★  2021.06 – 至今     云南大学 地球科学学院 副教授
-     [Associate Professor, School of Earth Science, Yunnan University]
+★  2021.06 – now  Associate Professor, School of Earth Science, Yunnan University
 
-★  2019.11 – 2020. 6  香港中文大学 太空与地球信息科学研究所 研究助理
-     [Research assistant, Institute of Space & Earth Information Science, The Chinese University of Hong Kong]
+★  2019.11 – 2020. 6  Research assistant, Institute of Space & Earth Information Science, The Chinese University of Hong Kong
 
      
 ## Education Background ##
 <br>
 
-★  2015.9 – 2020. 9 代尔夫特理工大学，土木工程与地球科学学院，雷达遥感，哲学博士
-Supervisor：Ramon F. Hanssen, Paco Lopez-Dekker
-[PhD. in Geoscience and Remote Sensing, Civil Engineering and Geosciences, Delft University of Technology, Delft, the Netherlands]
+★  2015.9 – 2020. 9 PhD. in Geoscience and Remote Sensing, Civil Engineering and Geosciences, Delft University of Technology, Delft, the Netherlands (Supervisor by Ramon F. Hanssen, Paco Lopez-Dekker)
 
-★  2012.9 – 2020. 6 武汉大学，测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士 
-导师：廖明生 教授
-[MPhil-PhD program in Photogrammetry and Remote Sensing, State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Hubei, China]
+★  2012.9 – 2020. 6 MPhil-PhD program in Photogrammetry and Remote Sensing, State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Hubei, China (Supervisor by Mingsheng Liao)
 
-★  2008.9 – 2012. 6 中南大学，地球科学与信息物理学院， 测绘工程，工学学士
-[B.E. in Geomatics Engineering, Dept. of Geosciences, and Info-Physics, Central South University, Hunan, China] 
+★  2008.9 – 2012. 6 B.E. in Geomatics Engineering, Dept. of Geosciences, and Info-Physics, Central South University, Hunan, China
 
 
 
