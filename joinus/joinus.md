@@ -18,6 +18,9 @@
 招生专业二：资源与环境工程  专业型硕士（专业代码08+）
 欢迎具有地理信息科学、测绘科学、遥感科学、空间信息技术、信息与信号处理、电子信息、计算机技术、软件工程、人工智能、大数据、模式识别与智能系统、地球物理等专业背景同学报考！
 <br><br><br>
+
+# We are always looking for highly motivated students to join our lab. #
+
 # 研究生培养计划 #
 ![](jihua.jpg)
 <br><br>
