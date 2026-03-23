@@ -26,6 +26,7 @@
 
 YNU-RADSENS课题组以优秀科研成果（展现形式为文章、算法、开源代码、专利等）为目标，完善的科研培养体系，与国内外顶尖雷达遥感课题组合作交流密切，为每位同学提供良好的的科研氛围和高水准的科研指导与学术支持，以学生获得更好的发展为团队核心宗旨！
 硕士研究生至少参与一次国内外学术交流活动(会议、野外考察等)。有读博意愿的，优秀学生可推荐至武汉大学、中南大学、中科院、西工大和国际等知名大学继续深造。
+![](huayuanbb.png)
 <br><br>
 Welcome to Join the Radar Remote Sensing Lab@YNU (YNU-RADSENS).
 Please send your CV to yangms@ynu.edu.cn 
