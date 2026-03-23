@@ -1,10 +1,26 @@
-
+[
     {
-        "name": "Mingchun Wen",
+        "name": "Mingchun Wen (温明淳) ",
         "position": "MEng (Resources and Environmental Engineering 03)",
         "research": "Remote Sensing",
-        "image": "wenmingchun.jpg",
+        "image": "fig\\wenmingchun.jpg",
         "go": "PhD at Sun Yat-sen University"
+    },
+    {
+        "name": "Yang Zhuo (杨 卓)",
+        "position": "M.S (Cartography and Geography Information System)",
+        "research": "Application of Insar technology in urban scene",
+        "email": "yangzhuo001004@163.com",
+        "image": "fig\\yangzhuo.jpg",
+        "go": "Central Southern China Electric Power Design Institute"
+    },
+    {
+        "name": "Saiwei Li (李赛伟)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "InSAR time series analysis, machine learning, geographic information systems.",
+        "email": "lsw_ynu@163.com",
+        "image": "fig\\lisaiwei.jpg",
+        "go": "杭州互联网公司"
     }
 
-
+]

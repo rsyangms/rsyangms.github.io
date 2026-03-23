@@ -17,8 +17,20 @@
 <br>
 招生专业二：资源与环境工程  专业型硕士（专业代码08+）
 欢迎具有地理信息科学、测绘科学、遥感科学、空间信息技术、信息与信号处理、电子信息、计算机技术、软件工程、人工智能、大数据、模式识别与智能系统、地球物理等专业背景同学报考！
-<br><br><br>
 
+
+<br><br>
+##  学生培养理念（Philosophy for Student Nurturing‌）： ##
+与学生一起成长，一起探索和拓展知识体系。YNU-RADSENS课题组提供完善的科研训练，全方位培养研究生的数据处理与分析、学术报告、论文拟写、项目申请等科研技能和素养。
+<br><br>
+
+YNU-RADSENS课题组以优秀科研成果（展现形式为文章、算法、开源代码、专利等）为目标，完善的科研培养体系，与国内外顶尖雷达遥感课题组合作交流密切，为每位同学提供良好的的科研氛围和高水准的科研指导与学术支持，以学生获得更好的发展为团队核心宗旨！
+硕士研究生至少参与一次国内外学术交流活动(会议、野外考察等)。有读博意愿的，优秀学生可推荐至武汉大学、中南大学、中科院、西工大和国际等知名大学继续深造。
+<br><br>
+Welcome to Join the Radar Remote Sensing Lab@YNU (YNU-RADSENS).
+Please send your CV to yangms@ynu.edu.cn 
+
+<br><br><br>
 # We are always looking for highly motivated students to join our lab. #
 
 # 研究生培养计划 #

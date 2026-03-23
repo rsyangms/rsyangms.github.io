@@ -27,7 +27,7 @@
         <!-- 左侧区域：Group Leader 头像 -->
         <div class="sidebar">
             <h3 class="group-title">Group Leader</h3>
-            <img src="yms.jpg" alt="Person Image" class="leader-image">
+            <img src="fig\yms.jpg" alt="Person Image" class="leader-image">
         </div>
 
         <!-- 右侧区域：Group Leader 信息 -->
@@ -140,9 +140,10 @@
                 const biyeImagesContainer = document.getElementById('biye-images');
                 const biyeInfoContainer = document.getElementById('biye-info');
 
-                const img = document.createElement('img');
-                img.src = data.image;
-                img.alt = `${data.name} Image`;
+                data.forEach(member => {
+                    const img = document.createElement('img');
+                img.src = member.image;
+                img.alt = `${member.name} Image`;
                 img.classList.add('person-image');
                 biyeImagesContainer.appendChild(img);
 
@@ -150,16 +151,16 @@
                 biyeDiv.classList.add('biye-details');
 
                 const name = document.createElement('h2');
-                name.innerText = data.name;
+                name.innerText = member.name;
 
                 const position = document.createElement('p');
-                position.innerHTML = `<strong>Position:</strong> ${data.position}`;
+                position.innerHTML = `<strong>Position:</strong> ${member.position}`;
 
                 const research = document.createElement('p');
-                research.innerHTML = `<strong>Research:</strong> ${data.research}`;
+                research.innerHTML = `<strong>Research:</strong> ${member.research}`;
 
                 const go = document.createElement('p');
-                go.innerHTML = `<strong>Graduation:</strong> ${data.go}`;
+                go.innerHTML = `<strong>Graduation:</strong> ${member.go}`;
 
                 biyeDiv.appendChild(name);
                 biyeDiv.appendChild(position);
@@ -170,6 +171,7 @@
                 const divider = document.createElement('hr');
                 divider.classList.add('divider');
                 biyeInfoContainer.appendChild(divider);
+                })
             })
             .catch(error => {
                 console.error('Error loading biye.json:', error);

@@ -1,66 +1,73 @@
 [
     {
-        "name": "Yang Zhuo (2022)",
-        "position": "M.S (Cartography and Geography Information System)",
-        "research": "Application of Insar technology in urban scene",
-        "email": "yangzhuo001004@163.com",
-        "image": "yangzhuo.jpg"
-    },
-    {
-        "name": "Saiwei Li (2022)",
-        "position": "MEng (Resources and Environmental Engineering 01)",
-        "research": "InSAR time series analysis, machine learning, geographic information systems.",
-        "email": "lsw_ynu@163.com",
-        "image": "lisaiwei.jpg"
-    },
-    {
-        "name": "Yiming Huang (2022)",
+        "name": "Yiming Huang (黄一鸣 2022)",
         "position": "MEng (Resources and Environmental Engineering 03)",
         "research": "Insar technology application",
         "email": "1207852894@qq.com",
-        "image": "huangyiming.jpg"
+        "image": "fig\\huangyiming.jpg"
     },
   {
-        "name": "Yu Hang (2023)",
+        "name": "Yu Hang (喻 航 2023)",
         "position": "MEng (Resources and Environmental Engineering 01)",
         "research": "InSAR data processing",
         "email": "316682711@qq.com",
-        "image": "yuhang.jpg"
+        "image": "fig\\yuhang.jpg"
     },
     {
-        "name": "Yangwei Yu (2023)",
+        "name": "Yangwei Yu (俞扬威 2023)",
         "position": "MEng (Resources and Environmental Engineering 03)",
         "research": "Application of InSAR in the field of geological hazards",
         "email": "yyw_0106@163.com",
-        "image": "yuyangwei.jpg"
+        "image": "fig\\yuyangwei.jpg"
     },
     {
-        "name": "Weibin Huang (2024)",
+        "name": "Weibin Huang (黄委彬 2024)",
         "position": "M.S (Cartography and Geography Information System)",
         "research": "Positioning Correction of InSAR Combined with LiDAR",
         "email": "bin_ynu@foxmail.com",
-        "image": "huangweibin.jpg"
+        "image": "fig\\huangweibin.jpg"
     },
   {
-        "name": "Wu Hao (2024)",
+        "name": "Wu Hao (吴 昊 2024)",
         "position": "M.S (Cartography and Geography Information System)",
         "research": "InSAR data processing, polarimetric SAR data processing",
         "email": "wh_ynu@163.com",
-        "image": "wuhao3.jpg"
+        "image": "fig\\wuhao3.jpg"
     },
     {
-        "name": "Yin Kang (2024)",
+        "name": "Yin Kang (尹 康2024)",
         "position": "MEng (Resources and Environmental Engineering 02)",
         "research": "Deep learning temporal deformation classification and land subsidence",
         "email": "xingyujian1022@163.com",
-        "image": "yinkang.jpg"
+        "image": "fig\\yinkang3.jpg"
     },
     {
-        "name": "Siran Chen (2024)",
+        "name": "Siran Chen (陈思然 2024)",
         "position": "MEng (Resources and Environmental Engineering 01)",
         "research": "Radar remote sensing urban building health diagnosis",
         "email": "1151850167@qq.com",
-        "image": "chensiran.jpg"
+        "image": "fig\\chensiran.jpg"
+    },
+    {
+        "name": "Yuhang Zhang (张宇航 2025)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "Urban InSAR deformation analysis and modeling",
+        "email": "1423865575@qq.com",
+        "image": "fig\\zhangyuhang.jpg"
+    },
+    {
+        "name": "Tianrui Zhao (赵天瑞 2025)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "InSAR deformation attribution analysis and automated Classification",
+        "email": "2329644145@qq.com",
+        "image": "fig\\zhaotianrui.jpg"
+    },
+    {
+        "name": "Xiaobin Wu  (吴晓斌  2025)",
+        "position": "MEng (Resources and Environmental Engineering 02)",
+        "research": "Multidimensional InSAR Spatiotemporal Clustering and Anomalous Deformation Identification for Urban Scenarios",
+        "email": "3032645665@qq.com",
+        "image": "fig\\wuxiaobin.jpg"
     }
 
 ]

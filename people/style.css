@@ -83,8 +83,8 @@ p {
 /* 个人信息图片样式 */
 
 .person-image {
-    width: 200px;  /* 设置图片的宽度为 150px */
-    height: auto;  /* 保持图片比例 */
+    width: 150px;  /* 设置图片的宽度为 150px */
+    height: auto;    /* 保持图片比例 */
     border-radius: 10px;  /* 图片圆角 */
     margin-bottom: 20px;  /* 图片和其他内容的间距 */
 }
@@ -164,8 +164,8 @@ p {
 }
 
 .person-image {
-    width: 160px;  /* 设置图片宽度 */
-    height: auto;  /* 保持图片比例 */
+    width: 170px;  /* 设置图片宽度 */
+    height:auto;  /* 保持图片比例 */
     border-radius: 10px;  /* 图片圆角 */
     margin-bottom: 20px;  /* 图片和其他内容的间距 */
 }
