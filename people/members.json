@@ -4,7 +4,6 @@
         "position": "MEng (Resources and Environmental Engineering 03)",
         "research": "Insar technology application",
         "email": "1207852894@qq.com",
-         "本科":"长安大学"，
         "image": "fig\\huangyiming.jpg"
 
     },
@@ -14,7 +13,6 @@
         "research": "InSAR data processing",
         "email": "316682711@qq.com",
         "image": "fig\\yuhang.jpg"
-         "本科":"中国石油大学"
     },
     {
         "name": "Yangwei Yu (俞扬威 2023)",
@@ -22,7 +20,6 @@
         "research": "Application of InSAR in the field of geological hazards",
         "email": "yyw_0106@163.com",
         "image": "fig\\yuyangwei.jpg"
-         "本科":"中国矿业大学"
     },
     {
         "name": "Weibin Huang (黄委彬 2024)",
@@ -30,7 +27,6 @@
         "research": "Positioning Correction of InSAR Combined with LiDAR",
         "email": "bin_ynu@foxmail.com",
         "image": "fig\\huangweibin.jpg"
-        "本科":"云南大学"
     },
   {
         "name": "Wu Hao (吴 昊 2024)",
@@ -38,7 +34,6 @@
         "research": "InSAR data processing, polarimetric SAR data processing",
         "email": "wh_ynu@163.com",
         "image": "fig\\wuhao3.jpg"
-        "本科":"云南大学"
     },
     {
         "name": "Yin Kang (尹 康2024)",
@@ -46,7 +41,6 @@
         "research": "Deep learning temporal deformation classification and land subsidence",
         "email": "xingyujian1022@163.com",
         "image": "fig\\yinkang3.jpg"
-         "本科":"云南师范大学"
     },
     {
         "name": "Siran Chen (陈思然 2024)",
@@ -54,7 +48,6 @@
         "research": "Radar remote sensing urban building health diagnosis",
         "email": "1151850167@qq.com",
         "image": "fig\\chensiran.jpg"
-         "本科":"山东科技大学"
     },
     {
         "name": "Yuhang Zhang (张宇航 2025)",
@@ -62,7 +55,6 @@
         "research": "Urban InSAR deformation analysis and modeling",
         "email": "1423865575@qq.com",
         "image": "fig\\zhangyuhang.jpg"
-         "本科":"云南大学"
     },
     {
         "name": "Tianrui Zhao (赵天瑞 2025)",
@@ -70,7 +62,6 @@
         "research": "InSAR deformation attribution analysis and automated Classification",
         "email": "2329644145@qq.com",
         "image": "fig\\zhaotianrui.jpg"
-         "本科":"武汉科技大学"
     },
     {
         "name": "Xiaobin Wu  (吴晓斌  2025)",
@@ -78,7 +69,6 @@
         "research": "Multidimensional InSAR Spatiotemporal Clustering and Anomalous Deformation Identification for Urban Scenarios",
         "email": "3032645665@qq.com",
         "image": "fig\\wuxiaobin.jpg"
-         "本科":"云南大学"
     }
 
 ]
